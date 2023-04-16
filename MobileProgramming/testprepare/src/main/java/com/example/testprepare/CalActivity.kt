@@ -7,8 +7,8 @@ import com.example.testprepare.databinding.ActivityCalBinding
 class CalActivity : AppCompatActivity() {
     lateinit var binding: ActivityCalBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = ActivityCalBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
+        binding = ActivityCalBinding.inflate(layoutInflater)
         setContentView(binding.root)
         title = "Calculator"
 

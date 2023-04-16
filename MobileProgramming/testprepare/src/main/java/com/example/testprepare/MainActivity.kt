@@ -17,5 +17,14 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, CalActivity::class.java)
             startActivity(intent)
         }
+
+        binding.diceBtn.setOnClickListener{
+            val intent = Intent(this, DiceActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
     }
 }
