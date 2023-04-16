@@ -8,6 +8,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileProgramming">
         <activity
+            android:name=".DiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WacthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
