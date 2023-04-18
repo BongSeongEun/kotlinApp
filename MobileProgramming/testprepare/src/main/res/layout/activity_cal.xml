@@ -4,40 +4,175 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <GridLayout
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:text="1"
+        android:id="@+id/result"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:columnCount="4"
-        android:layout_gravity="center"
-        >
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Main"
-            android:id="@+id/mainBtn"
-            android:layout_margin="5dp"/>
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:text="7"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn7"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="8"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn8"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="9"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn9"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="/"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btnDiv"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:text="4"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn4"
+            />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cal"
-            android:id="@+id/calBtn"
-            android:layout_margin="5dp"/>
-
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="5"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn5"
+            />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Dice"
-            android:id="@+id/diceBtn"
-            android:layout_margin="5dp"/>
-
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="6"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn6"
+            />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Watch"
-            android:id="@+id/watchBtn"
-            android:layout_margin="5dp"/>
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="X"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btnDou"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn1"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:text="2"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn2"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="3"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btn3"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="-"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btnMin"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:layout_columnSpan="2"
+            android:id="@+id/btn0"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:text="="
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btnEqual"
+            />
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="+"
+            android:textSize="20dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/btnPlus"
+            />
+
     </GridLayout>
+
 </LinearLayout>

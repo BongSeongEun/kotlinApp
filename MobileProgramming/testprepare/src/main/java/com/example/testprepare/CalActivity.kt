@@ -12,8 +12,6 @@ class CalActivity : AppCompatActivity() {
         setContentView(binding.root)
         title = "Calculator"
 
-        binding.mainBtn.setOnClickListener{
-            finish()
-        }
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }

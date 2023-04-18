@@ -10,5 +10,8 @@ class DiceActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDiceBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        title = "Dice"
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }
